@@ -11,7 +11,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users WHERE id = $id");
 // Recupera os dados retornados pela consulta como um array associativo
 $resultData = mysqli_fetch_assoc($result);
 
-// Atribui os valores dos campos 'name', 'age' e 'email' a variáveis locais
+
 $Nometitular = $resultData['Nometitular'];
 $NumerodoCartao = $resultData['NumerodoCartao'];
 $Datadevalidade = $resultData['Datadevalidade'];
