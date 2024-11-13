@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Card</title> <!-- Título da página -->
+    <title>Add Card</title> 
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -72,38 +72,38 @@
 </head>
 
 <body>
-    <h2>CardHub</h2> <!-- Cabeçalho da página, indicando que é a seção de adição de dados -->
+    <h2>CardHub</h2> 
     <p style="text-align: center;">
-        <!-- Link para a página inicial, redirecionando o usuário para 'index.php' -->
+      
         <a href="index.php"><button>Voltar</button></a>
     </p>
 
     <!-- Formulário para adicionar novos dados ao banco de dados -->
-    <form action="addAction.php" method="post" name="add"> <!-- Formulário enviado via POST para a página addAction.php -->
+    <form action="addAction.php" method="post" name="add"> 
         <table>
             <tr> 
                 <td>Nome titular</td> <!-- Rótulo (label) para o campo de nome -->
-                <td><input type="text" name="Nometitular" required></td> <!-- Campo de texto para o nome do usuário -->
+                <td><input type="text" name="Nometitular" required></td> 
             </tr>
             <tr> 
                 <td>Número do Cartão</td> <!-- Rótulo (label) para o campo Número do Cartão -->
-                <td><input type="text" name="NumerodoCartao" required></td> <!-- Campo de texto para a idade do usuário -->
+                <td><input type="text" name="NumerodoCartao" required></td> 
             </tr>
             <tr> 
                 <td>Data de validade</td> <!-- Rótulo (label) para o campo Data de validade -->
-                <td><input type="text" name="Datadevalidade" required></td> <!-- Campo de texto para o e-mail do usuário -->
+                <td><input type="text" name="Datadevalidade" required></td> 
             </tr>
             <tr> 
                 <td>Tipo</td> <!-- Rótulo (label) para o campo Tipo -->
-                <td><input type="text" name="Tipo" required></td> <!-- Campo de texto para o e-mail do usuário -->
+                <td><input type="text" name="Tipo" required></td> 
             </tr>
             <tr> 
                 <td>CVV</td> <!-- Rótulo (label) para o campo CVV -->
-                <td><input type="text" name="CVV" required></td> <!-- Campo de texto para o e-mail do usuário -->
+                <td><input type="text" name="CVV" required></td>
             </tr>
             <tr> 
                 <td>Bandeira</td> <!-- Rótulo (label) para o campo Bandeira -->
-                <td><input type="text" name="Bandeira" required></td> <!-- Campo de texto para o e-mail do usuário -->
+                <td><input type="text" name="Bandeira" required></td> 
             </tr>
             <tr> 
                 <td></td> <!-- Célula vazia (não exibe nada) -->
